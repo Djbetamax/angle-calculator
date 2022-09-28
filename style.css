@@ -15,8 +15,16 @@ body {
   cursor: default;
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 h1 {
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .angleValue-container {
@@ -33,7 +41,7 @@ h1 {
 
 .angleValue-container input {
   padding: 2.5px;
-  width: 80px;
+  width: 100px;
   outline: 0;
   border: 1px solid rgba(0, 0, 0, 0.4);
   border-radius: 5px;
@@ -48,30 +56,41 @@ h1 {
 
 .chooseAngle-container {
   display: flex;
-  flex-direction: column;
-  text-align: center;
+  justify-content: space-around;
   margin: 6px;
 }
 
-.angle-container {
-  display: flex;
-  justify-content: right;
-  align-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 0 2.2rem 0 0;
-}
-
 .chooseAngle-container label {
-  font-size: 14px;
+  font-size: 14px;  
 }
 
 .btn-submit {
   margin: 8px 0 0 0;
-  padding: 7px;
+  padding: 8px 16px;
   border: 0;
   border-radius: 5px;
   font-size: 14px;
   font-weight: 800;
   cursor: pointer;
+}
+
+.angle-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 8px 0 0 0;
+  padding: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+span {
+  padding: 4px;
+  color: aquamarine;
 }
