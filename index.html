@@ -8,7 +8,39 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <main class="main-container">
+  <h1>Angle Calculator</h1>
+    <div class="">
+      <form action="">
+        <div class="angleValue-container">
+          <label for="angleValue">Number Angle:</label>
+          <input type="number" name="angleValue" class="inputValue">
+        </div> 
+        <div class="chooseAngle-container" for="angleName">
+          <div class="angle-container">
+            <label for="sinAngle">Sin:</label>
+            <input type="radio" name="angleName" id="angleName"
+            class="sinAngle">
+          </div>
+          <div class="angle-container">
+            <label for="cosAngle">Cos:</label>
+            <input type="radio" name="angleName" id="angleName " class="cosAngle">
+          </div>
+          <div class="angle-container">
+            <label for="tanAngle">Tan:</label>
+            <input type="radio" name="angleName" id="angleName" class="tanAngle">
+          </div>
+          <div class="angle-container">
+            <label for="allAngle">All:</label>
+            <input type="radio" name="angleName" id="angleName"
+            class="allAngle">
+          </div>
+        </div>
+        <input type="button" value="Calculate" class="btn-submit">
+      </form>
+    </div>
+    <div class="result-container"></div>
+  </main>
   <script src="app.js"></script>
 </body>
 </html>
