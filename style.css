@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: default;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.angleValue-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 0 4px 0;
+}
+
+.angleValue-container label {
+  margin: 0 4px 0 0;
+  font-size: 14px;
+}
+
+.angleValue-container input {
+  padding: 2.5px;
+  width: 80px;
+  outline: 0;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.angleValue-container input:focus {
+  border: 1px solid rgba(0, 0, 0, 7);
+}
+
+.chooseAngle-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 6px;
+}
+
+.angle-container {
+  display: flex;
+  justify-content: right;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 2.2rem 0 0;
+}
+
+.chooseAngle-container label {
+  font-size: 14px;
+}
+
+.btn-submit {
+  margin: 8px 0 0 0;
+  padding: 7px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+}
