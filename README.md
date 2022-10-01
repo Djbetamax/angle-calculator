@@ -2,19 +2,19 @@
 
 In that project, it was used: HTML5, CSS3, and Javascript.
 
-It has the function to return the number of an angle.
+Receives an angle/number on input and returns the selected value between Sin, Cos, and Tan.
 
 ## Preview Picture
 
-[alt](img/)
+![alt](img/angle-calculator-preview-img.png)
 
 ### See in action
 
-If you want to see how it works, I recommend [forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repo and open in an IDE or a Source-code editor.
+If you want to see how it works, I recommend [forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repo and open in an IDE or a Source-code editor.  
 
 ## Used stacks
 
-<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" width="80px" alt="html5">, <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" width="70px" alt="css3">, <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" height="26px">, <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" width="63px"> and <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" width="120px" alt="javascript">
+<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" width="80px" alt="html5">, <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" width="70px" alt="css3">, <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" height="26px">, <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" width="63px">, and <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" width="120px" alt="javascript">
 
 ## Author
 
